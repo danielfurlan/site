@@ -1,0 +1,863 @@
+body {
+			background-image: linear-gradient(#01090f, #100000);
+			/*background-image: radial-gradient(#25425a, #e6ecb4, #f2ad97);*/
+			background-image: radial-gradient(#6c9bc2, #e5f65f, #b4401b);
+			font-size: 15px;
+			box-sizing: border-box;
+			margin: 0;
+			width: 100%;
+			font-family: 'Charm', cursive;
+			display: block;
+			padding : 0px;
+			height: 100%;
+
+}
+#description{
+
+	color: #0a0a0b;
+	font-size: 1.6em;
+/*	border: solid;*/
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 50px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 50%;
+	height: 750px;
+	color: #161d53;
+	transition: color cubic-bezier(0.42, 0, 1, 1);
+}
+#description li {
+	list-style-type: none;
+	margin: 30px;
+	font-family: 'Sofia', cursive;
+}
+#description p {
+	margin-bottom: 50px;
+}
+#name {
+	background-color: #a9b74e;
+	border-radius: 30% 0% 50% 50%;
+	font-size: 1.6em;
+	color: #e1e6a1;
+	font-family: 'Indie Flower', cursive;
+	margin: 0 auto;
+	width: 50%;
+	border: solid;
+	border-color: #4576b7;
+	border-width: 2.8px;
+	background-image: linear-gradient(#4b2f2f, #f2e5b8);
+}
+/**********************CATEGORIES********************/
+#categories{
+	height: 500px;
+}
+.catpos {
+	/*background-color: #d4c95a;*/
+/*	border-style: solid;
+	border-color: red;*/
+	height: 300px;
+	margin-top: 40px;
+	border-radius: 20%;
+}
+#desserts{
+	background-image: url("../Images/Desserts/flamBetterace.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-right: 20px;
+		transition: transform 0.4s;
+	transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
+}
+/*#desserts div {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.2em;
+	margin: 30px;
+	color:#3c8c99;
+}*/
+#desserts:hover {
+	/*background-color: #3c8c99;*/
+	text-decoration: none;
+	font-size: 1.2em;
+	text-shadow: 2px 2px 1px 1px white;
+	box-shadow: 0px 0px 2px 2px white;
+	transform: rotate(-8deg) scale(1.05);
+}
+.catpos div {
+	font-family: 'Mali', cursive;
+	font-size: 3.4em;
+	margin: 100px auto auto auto;
+	color:#ddf5ae;
+
+}
+#breakfast{
+	background-image: url("../Images/Breakfast/panne6.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-right: 20px;
+	transition: transform 0.4s;
+	transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
+}
+#breakfast div {
+	font-family: 'Mali', cursive;
+/*	font-size: 3.4em;*/
+	margin: 100px 100px 100px -10px;
+	color:#7ed4e3;
+}
+#breakfast:hover {
+	/*background-color: #3c8c99;*/
+	text-decoration: none;
+	font-size: 1.2em;
+	text-shadow: 2px 2px 1px 1px white;
+	box-shadow: 0px 0px 2px 2px white;
+	transform: rotate(8deg) scale(1.05);
+	/*transform: scale(1.1);*/
+}
+#meals{
+	background-image: url("../Images/Meals/omelete_endivie_artichu.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+		transition: transform 0.4s;
+	transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
+	/*margin-top: -40px;*/
+}
+#meals div {
+	font-family: 'Mali', cursive;
+	/*font-size: 4em;*/
+	margin: 100px 100px 100px 80px;
+	color:#7ed4e3;
+}
+#meals:hover {
+	/*background-color: #3c8c99;*/
+	text-decoration: none;
+	font-size: 1.2em;
+	text-shadow: 2px 2px 1px 1px white;
+	transform: rotate(8deg) scale(1.05);
+		box-shadow: 0px 0px 2px 2px white;
+}
+#tips{
+	background-image: url("../Images/Desserts/verrineSano.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: transform 0.4s;
+	transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
+	/*margin-top: -40px;*/
+}
+#tips div {
+	font-family: 'Mali', cursive;
+	/*font-size: 4em;*/
+	margin: 100px 100px 100px 80px;
+	color:#e04a7a;
+}
+#tips:hover {
+	/*background-color: #3c8c99;*/
+	text-decoration: none;
+	font-size: 1.2em;
+	text-shadow: 2px 2px 1px 1px white;
+	transform: rotate(-8deg) scale(1.05);
+		box-shadow: 0px 0px 2px 2px white;
+}
+.container {
+	padding: 0;
+}
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	max-width: 20%;
+	flex: 0 0 20%;
+	-ms-flex: 0 0 20%;
+}
+#page {
+	box-sizing: border-box;
+	display: grid;
+	position: relative;
+	padding: 0px;
+	margin: 0 auto 300px auto;
+}
+
+#content {
+	width: 100%;
+	text-align: center;
+	margin-top: 400px;
+	margin-bottom: 10px;	
+	z-index: 1;
+}
+
+#headphoto {
+	background-image: url("../Images/Meals/risoConPanneEinsalata.jpg");
+	/*risoConPanneEinsalata.jpg*/
+	/*//////////////////////oppure la foto di leg_salad.jpg////////////////////////////////////////////////:*/
+	height: 370px;
+   	font-family: 'Indie Flower', cursive;
+   	 	background-attachment: scroll;
+
+   	 		width: 100%;
+z-index: 0;
+position: fixed;
+
+}
+
+#bio {
+	font-size: 4em;
+	color: #a19c3e;
+	text-align: center;
+	text-shadow: 1px 1px white;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+#biotext {
+	width: 66.6%;
+	font-size: 1.1em;
+	color: white;
+	padding-right: 20px;
+}
+
+
+
+/*STARTS FOOTER*/
+
+.panel-footer{
+	background-image: linear-gradient(#574d4d,#477ee0);
+	color: #d1db37; /*gold*/
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 5;
+	opacity: 0.9
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+.panel-footer span, .panel-footer div{
+	text-align: center;
+}
+.panel-footer div.text-center {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #f6f5c2; /*white gold*/
+	margin-top: 10px;
+}
+
+.panel-footer .row #city,.panel-footer .row #hour {
+	margin-top: 15px;
+	font-size: 1.2em;
+}
+
+
+/*END FOOTER*/
+@media (min-width: 1200px){
+#headphoto {
+	z-index: 0;
+			color: #42e023;
+   			font-family: 'Indie Flower', cursive;
+			font-size: 170px;
+			text-align: center; 
+				background-image: url("../Images/tableFood.jpeg") no-repeat ;
+				background-position: center;
+				background-size: cover;
+			padding-top: 170px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+			position: fixed;
+}
+.container {
+	padding: 0;
+	max-width: 1200px;
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -20px;
+position: fixed;
+left: 42%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+	text-decoration: none;
+	color: #ec63ab;
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+#button{
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+.show{
+	margin: 130px 40%;
+	left: 34%;
+	top: 100px;
+}
+#navbarSupportedContent li {
+	font-size: 1.3em;
+	margin: 10px 20px 10px 20px;
+}
+#navbarSupportedContent ul {
+	margin: 15px 0 0 0;
+}
+#flower {
+	background-image: url("../Images/Desserts/rose.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+/*	margin-right: 20px;*/
+}
+#description{
+
+	color: #14207d;
+	font-size: 1.6em;
+/*	border: solid;*/
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 100px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 50%;
+	height: 850px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	#headphoto {
+				color: #42e023;
+			font-family: 'Indie Flower', cursive;
+			font-size: 90px;
+			text-align: center;
+				background-image: url("../Images/tableFood.jpeg") no-repeat ;
+				background-position: center;
+				background-size: cover;
+			padding-top: 170px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+		}
+		.container {
+	padding: 0;
+	max-width: 1199px;
+}
+#description{
+
+	color: #14207d;
+	font-size: 1.6em;
+/*	border: solid;*/
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 100px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 50%;
+	height: 850px;
+}
+#flower {
+	background-image: url("../Images/Desserts/rose.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+/*	margin-right: 20px;*/
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -20px;
+position: fixed;
+left: 42%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+	text-decoration: none;
+	color: #ec63ab;
+}
+#bottom{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.catpos{
+
+}
+}
+
+@media (min-width: 790px) and (max-width: 991px){
+	#headphoto {
+				color: #42e023;
+		font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+			background-image: url("../Images/tableFood.jpeg") no-repeat;
+				background-position: center;
+				background-size: cover;
+			padding-top: 80px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+#footerphoto{
+		background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto div:hover{
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+#button{
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+.show{
+	margin: 130px 40%;
+	left: 34%;
+	top: 100px;
+}
+#navbarSupportedContent li {
+	font-size: 1.3em;
+	margin: 10px 20px 10px 20px;
+}
+#navbarSupportedContent ul {
+	margin: 15px 0 0 0;
+}
+#flower {
+	background-image: url("../Images/Desserts/rose.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+/*	margin-right: 20px;*/
+}
+#description{
+
+	color: #14207d;
+	font-size: 1.6em;
+/*	border: solid;*/
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 100px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 50%;
+	height: 950px;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -20px;
+position: fixed;
+left: 37%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#bottom{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.catpos div {
+	font-family: 'Mali', cursive;
+	font-size: 2.6em;
+	margin: 100px auto auto auto;
+	color:#ddf5ae;
+
+}
+}
+
+@media (min-width: 575px) and (max-width: 789px){
+	#headphoto {
+				color: #42e023;
+		font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+			background-image: url("../Images/tableFood.jpeg") no-repeat;
+				background-position: center;
+				background-size: cover;
+			padding-top: 80px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+#fotphoto div:hover {
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+#button {
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+.show {
+	margin: 130px 40%;
+	left: 34%;
+	top: 100px;
+}
+#navbarSupportedContent li {
+	font-size: 1.3em;
+	margin: 10px 20px 10px 20px;
+}
+#navbarSupportedContent ul {
+	margin: 15px 0 0 0;
+}
+#flower {
+	background-image: url("../Images/Desserts/rose.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+/*	margin-right: 20px;*/
+}
+#description {
+
+	color: #14207d;
+	font-size: 1.4em;
+/*	border: solid;*/
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 100px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 50%;
+	height: 850px;
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -20px;
+position: fixed;
+left: 33%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#bottom{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+#meals div{
+	margin: 100px 100px 100px 60px;
+}
+.catpos div {
+	font-family: 'Mali', cursive;
+	font-size: 2.6em;
+	margin: 100px auto auto auto;
+	color:#ddf5ae;
+
+}
+}
+@media (min-width: 480px) and (max-width: 574px){
+	#headphoto {
+				color: #42e023;
+		font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+			background-image: url("../Images/tableFood.jpeg") no-repeat;
+				background-position: center;
+				background-size: cover;
+			padding-top: 80px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+#desserts{
+	background-image: url("../Images/Desserts/flamBetterace.jpg");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 20px;
+}
+#breakfast{
+	background-image: url("../Images/Desserts/panne6.jpg");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 20px;
+}
+.catpos{
+	background-position: center;
+	background-size: 50%;
+	height: 250px;
+margin-top: 20px;
+border-radius: 20%;
+}
+#fotphoto div:hover {
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+#button {
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+.show {
+	margin: 130px 40%;
+	left: 34%;
+	top: 100px;
+}
+#navbarSupportedContent li {
+	font-size: 1.3em;
+	margin: 10px 20px 10px 20px;
+}
+#navbarSupportedContent ul {
+	margin: 15px 0 0 0;
+}
+#flower {
+	background-image: url("../Images/Desserts/rose.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+/*	margin-right: 20px;*/
+}
+#description {
+
+	color: #14207d;
+	font-size: 1.1em;
+/*	border: solid;*/
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 100px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 50%;
+	height: 850px;
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: 10px;
+position: fixed;
+left: 33%;
+border-radius: 100%;
+transition: transform .5s;
+}
+}
+@media (max-width: 479px){
+#headphoto {
+			color: #42e023;
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+			background-image: url("../Images/Meals/tableFood.jpeg") no-repeat;
+				background-position: center;
+				background-size: cover;
+			padding-top: 100px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+.catpos{
+	background-position: center;
+	background-size: 50%;
+	height: 150px;
+	width: 150px;
+margin-top: 20px;
+border-radius: 20%;
+}
+.catpos div {
+	margin: 30px auto 20px auto;
+}
+
+
+#name {
+	background-color: #a9b74e;
+	border-radius: 30% 0% 50% 50%;
+	font-size: 1.6em;
+	color: #e1e6a1;
+	font-family: 'Indie Flower', cursive;
+	margin: 0 auto;
+	width: 100%;
+	border: solid;
+	border-color: #4576b7;
+	border-width: 2.8px;
+	background-image: linear-gradient(#4b2f2f, #f2e5b8);
+}
+#desserts{
+	background-image: url("../Images/Desserts/flamBetterace.jpg");
+	background-repeat: no-repeat;
+	margin-right: 20px;
+	background-position: center;
+	left: 23%;
+	width: 100%;
+}
+#desserts div{
+	margin: 30px auto 20px auto;
+}
+#breakfast{
+	/*background-image: url("../Images/Desserts/panne6.jpg");*/
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 20px;
+	left: 23%;
+	width: 100%;
+}
+#breakfast div{
+	margin: 30px auto 20px auto;
+}
+#meals{
+	left: 23%;
+	width: 93%;
+}
+#meals div{
+	margin: 30px auto 20px auto;
+}
+#tips{
+	left: 23%;
+	width: 93%;
+}
+#tips div{
+	margin: 30px auto 20px auto;
+}
+#bottom{
+	width: 300px;
+}
+#up{
+	width: 300px;
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+#button{
+	position: absolute;
+	top: 160px;
+	right: 10px;
+}
+.show{
+	margin: 200px 40%;
+	left: 32%;
+	top: 100px;
+}
+#navbarSupportedContent li {
+	font-size: 0.9em;
+	margin: 10px 20px 10px 20px;
+}
+#navbarSupportedContent ul {
+	margin: 15px 0 0 0;
+}
+#flower {
+	background-image: url("../Images/Desserts/rose.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+#description{
+	color: #0a0a0b;
+	font-size: 1.1em;
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 100px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 70%;
+	height: 1050px;
+}
+#description li {
+	font-size: 1.2em;
+}
+#categories{
+	height: 600px;
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: 30px;
+position: fixed;
+left: 21%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+		text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+}

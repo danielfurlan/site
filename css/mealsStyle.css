@@ -1,0 +1,916 @@
+body {
+background-color: #841b39;
+			font-size: 15px;
+			box-sizing: border-box;
+			margin: 0;
+			width: 100%;
+			font-family: 'Charm', cursive;
+			display: block;
+			padding : 0px;
+			height: 100%;
+			line-height: 1.2;
+}
+#header-nav {
+	position: fixed;
+	width: 100%
+}
+#description{
+
+	color: #14207d;
+	font-size: 1.6em;
+/*	border: solid;*/
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 100px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 50%;
+	height: 750px;
+}
+#description li {
+	list-style-type: none;
+	margin: 30px;
+	font-family: 'Sofia', cursive;
+}
+#description p {
+	margin-bottom: 50px;
+}
+/******************* FOTI OGNI RICETTA**********************/
+#photoP {
+	background-image: url("../Images/Desserts/verrPoireCaffé.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+#photoV {
+	background-image: url("../Images/Desserts/flamBetterace.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+#photoS {
+	background-image: url("../Images/Desserts/pecheBiscuit.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+#photoC {
+	background-image: url("../Images/Desserts/tartePommeConfiture.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+/******************* FINI FOTI OGNI RICETTA**********************/
+#patatineCont{
+	margin: -40px auto 40px auto;
+}
+#vegCont{
+	margin: -40px auto 40px auto;
+}
+#soupCont{
+	margin: -40px auto 40px auto;
+}
+#chickenCont{
+	margin: -40px auto 40px auto;
+}
+#description p {
+	margin: 10px; /* discrizioni delle foti delle ricette*/
+}
+#name {
+	background-color: #bcc965;
+	border-radius: 100% 100% 100% 100%;
+	font-size: 1.6em;
+	color: #e1e6a1;
+	font-family: 'Indie Flower', cursive;
+	margin: 0 auto 60px;
+	-webkit-transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms
+	/*width: 50%;*//*
+	border: solid;
+	border-color: #4576b7;
+	border-width: 2.8px;*/
+/*	background-image: linear-gradient(#4b2f2f, #f2e5b8);*/
+}
+#name:hover{
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+#id {
+	font-size: 1.4em;
+	color: red;
+}
+#veget {
+	font-size: 1.4em;
+	color: red;
+}
+#soup {
+	font-size: 1.4em;
+	color: red;
+}
+#chicken {
+	font-size: 1.4em;
+	color: red;
+}
+#flower {
+	background-image: url("../Images/Desserts/rose.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+/*	margin-right: 20px;*/
+}
+
+}
+#button span {
+	border-radius: 50%;
+	width: 50px;
+	background-color: brown;
+	opacity: 0.9;
+}
+/**********************CATEGORIES********************/
+#categories{
+	height: 500px;
+}
+.catpos {
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.6em;
+	margin: 0 auto auto 30px;
+	color:#f6ed33;
+	border-radius: 50%;
+}
+#navbarSupportedContent span {
+	text-shadow: 1px 2px green;
+}
+#row{
+	width: 100%
+	z-index:3;
+	float: right;
+}
+/*#desserts{
+	background-image: url("../Images/dessert.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-right: 20px;
+}*/
+#desserts div {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.2em;
+	margin: 30px;
+	color:#f6ed33;
+}
+
+/*#home div {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.2em;
+	margin: 30px;
+	color:#f6ed33;
+}
+#tips  div {
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.6em;
+	margin: 30px;
+	color:#f6ed33;
+}
+#breakfast div {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.2em;
+	margin: 30px;
+	color:#f6ed33;
+}
+#meals  div {
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.6em;
+	margin: 30px;
+	color:#f6ed33;
+}*/
+#home  a{
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.2em;
+	margin: 30px;
+	color:#f6ed33;
+}
+#tips a{
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.2em;
+	margin: 30px;
+	color:#f6ed33;
+}
+#breakfast a {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.2em;
+	margin: 30px;
+	color:#f6ed33;
+}
+#desserts a {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.2em;
+	margin: 30px;
+	color:#f6ed33;
+}
+
+#home:hover {
+	text-decoration: none;
+	font-size: 1.8em;
+	text-shadow: 2px 2px 1px 1px white;
+	background-size: 200px 200px;
+}
+
+#tips:hover {
+	text-decoration: none;
+	font-size: 1.8em;
+	text-shadow: 2px 2px 1px 1px white;
+	background-size: 200px 200px;
+
+}
+#breakfast:hover {
+	text-decoration: none;
+	font-size: 1.8em;
+	text-shadow: 2px 2px 1px 1px white;
+	background-size: 200px 200px;
+}
+
+#desserts:hover {
+	text-decoration: none;
+	font-size: 1.8em;
+	text-shadow: 2px 2px 1px 1px white;
+	background-size: 200px 200px;
+}
+.container {
+	padding: 0;
+}
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	max-width: 20%;
+	flex: 0 0 20%;
+	-ms-flex: 0 0 20%;
+}
+#page {
+
+	box-sizing: border-box;
+	display: grid;
+	position: relative;
+	padding: 0px;
+	margin: 0 auto 300px auto;
+}
+
+#content {
+					background-image: linear-gradient(#01090f, #100000);
+			background-image: radial-gradient(#aacae4, #c0cc4f, #a9b71f);
+	max-width: 100%;
+	text-align: center;
+	margin-top: 500px;
+	margin-bottom: 10px;	
+	opacity: 0.9;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+#headphoto {
+	background-image: url("../Images/Meals/abobora_pasta_salada.jpg");
+	background-size: cover;
+	/*height: 500px;*/
+   	font-family: 'Indie Flower', cursive;
+   	background-attachment: scroll;
+   	/*height: 700px;*/
+}
+#headphoto div {
+	height: 80px;
+
+}
+#headphoto span {
+/*	margin: 0 auto auto 10%;*/
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	/*top: 0;*/
+	width: 100%;
+}
+
+
+#bio {
+	font-size: 4em;
+	color: #a19c3e;
+	text-align: center;
+	text-shadow: 1px 1px white;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+#biotext {
+	width: 66.6%;
+	font-size: 1.1em;
+	color: white;
+	padding-right: 20px;
+}
+/****************BUTTON and CONTENTS***************/
+#button{
+	position: absolute;
+	top: 200px;
+	right: 40px;
+}
+#navbarSupportedContent{
+	top: 0;
+	right: 0;
+	position: absolute;
+	width: 200px;
+}
+#navbarSupportedContent a {
+	text-shadow: 1px 2px green;
+}
+#navbarSupportedContent li {
+	font-size: 1.6em;
+	margin: 20px;
+}
+.show{
+	margin: 240px 40%;
+	left: 280px;
+	top: 100px;
+}
+.show2{
+	margin: 0;
+	left: 280px;
+	top: 100px;
+}
+.figureI {
+	/*margin: 10px auto 10px;*/
+	transform: rotate(10deg);
+	height: 250px;
+	border: 7px solid black;
+}
+.figureP{
+	transform: rotate(-10deg);
+	height: 250px;
+	border: 7px solid white;
+}
+
+.cont {
+	margin: -40px auto 10px auto;
+}
+
+/*STARTS FOOTER*/
+
+.panel-footer{
+	background-image: linear-gradient(#574d4d,#477ee0);
+	color: #d1db37; /*gold*/
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 5;
+	opacity: 0.9
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+.panel-footer span, .panel-footer div{
+	text-align: center;
+}
+.panel-footer div.text-center {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #f6f5c2; /*white gold*/
+	margin-top: 10px;
+}
+
+.panel-footer .row #city,.panel-footer .row #hour {
+	margin-top: 15px;
+	font-size: 1.2em;
+}
+
+/*END FOOTER*/
+.ease {
+	background-color: #c8c370;
+	margin: 10px auto;
+}
+
+.collapse .ease .show{
+	/*transition: 0.5s;*/
+	-webkit-transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+	transition: 0.5s;
+}
+.collapsing {
+	-webkit-transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+	transition: 0.5s;
+}
+.collapsing.show {
+	-webkit-transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+	transition: 0.5s;
+}
+
+
+@media (min-width: 1200px){
+#headphoto {
+	z-index: 0;
+			color: #42e023;
+   			font-family: 'Indie Flower', cursive;
+			font-size: 170px;
+			text-align: center; 
+				background-image: url("../Images/Desserts/headDesserts_1200.jpg") no-repeat ;
+				background-position: center;
+				background-size: cover;
+			padding-top: 170px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+			position: relative;
+}
+#button span {
+	border-radius: 50%;
+	width: 50px;
+	background-color: brown;
+	opacity: 0.9;
+}
+.container {
+	padding: 0;
+	max-width: 1200px;
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -20px;
+position: fixed;
+left: 42%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+	text-decoration: none;
+	color: #ec63ab;
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+#button{
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+.show{
+	margin: 130px 40%;
+	left: 34%;
+	top: 100px;
+}
+#navbarSupportedContent li {
+	font-size: 1.3em;
+	margin: 10px 20px 10px 20px;
+}
+#navbarSupportedContent ul {
+	margin: 15px 0 0 0;
+}
+#flower {
+	background-image: url("../Images/Desserts/rose.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+/*	margin-right: 20px;*/
+}
+#description{
+
+	color: #14207d;
+	font-size: 1.1em;
+/*	border: solid;*/
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 100px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 50%;
+	height: 750px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	#headphoto {
+				color: #42e023;
+			font-family: 'Indie Flower', cursive;
+			font-size: 90px;
+			text-align: center;
+				background-image: url("../Images/Desserts/headDesserts_992.jpg") no-repeat ;
+				background-position: center;
+				background-size: cover;
+			padding-top: 170px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+		}
+		.container {
+	padding: 0;
+	max-width: 1199px;
+}
+#button span {
+	border-radius: 50%;
+	width: 50px;
+	background-color: brown;
+	opacity: 0.9;
+}
+#flower {
+	background-image: url("../Images/Desserts/rose.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+/*	margin-right: 20px;*/
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -20px;
+position: fixed;
+left: 42%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+	text-decoration: none;
+	color: #ec63ab;
+}
+}
+
+@media (min-width: 790px) and (max-width: 991px){
+	#headphoto {
+				color: #42e023;
+		font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+			background-image: url("../Images/Desserts/headDesserts.jpg") no-repeat;
+				background-position: center;
+				background-size: cover;
+			padding-top: 80px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+#footerphoto{
+		background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#button span {
+	border-radius: 50%;
+	width: 50px;
+	background-color: brown;
+	opacity: 0.9;
+}
+#fotphoto div:hover{
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+#button{
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+.show{
+	margin: 130px 40%;
+	left: 34%;
+	top: 100px;
+}
+#navbarSupportedContent li {
+	font-size: 1.3em;
+	margin: 10px 20px 10px 20px;
+}
+#navbarSupportedContent ul {
+	margin: 15px 0 0 0;
+}
+#flower {
+	background-image: url("../Images/Desserts/rose.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+/*	margin-right: 20px;*/
+}
+#description{
+
+	color: #14207d;
+	font-size: 1.1em;
+/*	border: solid;*/
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 100px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 50%;
+	height: 750px;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -20px;
+position: fixed;
+left: 37%;
+border-radius: 100%;
+transition: transform .5s;
+}
+}
+
+@media (min-width: 480px) and (max-width: 789px){
+	#headphoto {
+				color: #42e023;
+		font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+			background-image: url("../Images/Desserts/headDesserts.jpg") no-repeat;
+				background-position: center;
+				background-size: cover;
+			padding-top: 80px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+#button span {
+	border-radius: 50%;
+	width: 50px;
+	background-color: brown;
+	opacity: 0.9;
+}
+#fotphoto div:hover {
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+#button {
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+.show {
+	margin: 130px 40%;
+	left: 34%;
+	top: 100px;
+}
+#navbarSupportedContent li {
+	font-size: 1.3em;
+	margin: 10px 20px 10px 20px;
+}
+#navbarSupportedContent ul {
+	margin: 15px 0 0 0;
+}
+#flower {
+	background-image: url("../Images/Desserts/rose.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+/*	margin-right: 20px;*/
+}
+#description {
+
+	color: #14207d;
+	font-size: 1.1em;
+/*	border: solid;*/
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 100px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 50%;
+	height: 750px;
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -20px;
+position: fixed;
+left: 33%;
+border-radius: 100%;
+transition: transform .5s;
+}
+}
+@media (min-width: 480px) and (max-width: 574px){
+	#headphoto {
+				color: #42e023;
+		font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+			background-image: url("../Images/Desserts/headDesserts.jpg") no-repeat;
+				background-position: center;
+				background-size: cover;
+			padding-top: 80px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+#button span {
+	border-radius: 50%;
+	width: 50px;
+	background-color: brown;
+	opacity: 0.9;
+}
+#fotphoto div:hover {
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+#button {
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+.show {
+	margin: 130px 40%;
+	left: 34%;
+	top: 100px;
+}
+#navbarSupportedContent li {
+	font-size: 1.3em;
+	margin: 10px 20px 10px 20px;
+}
+#navbarSupportedContent ul {
+	margin: 15px 0 0 0;
+}
+#flower {
+	background-image: url("../Images/Desserts/rose.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+/*	margin-right: 20px;*/
+}
+#description {
+
+	color: #14207d;
+	font-size: 1.1em;
+/*	border: solid;*/
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 100px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 50%;
+	height: 750px;
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: 10px;
+position: fixed;
+left: 33%;
+border-radius: 100%;
+transition: transform .5s;
+}
+}
+@media (max-width: 479px){
+#headphoto {
+			color: #42e023;
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+			background-image: url("../Images/Desserts/headDesserts.jpg") no-repeat;
+				background-position: center;
+				background-size: cover;
+			padding-top: 100px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+#button{
+	position: absolute;
+	top: 160px;
+	right: 10px;
+}
+#button span {
+	border-radius: 50%;
+	width: 50px;
+	background-color: brown;
+	opacity: 0.9;
+}
+.show{
+	margin: 200px 40%;
+	left: 32%;
+	top: 100px;
+}
+#navbarSupportedContent li {
+	font-size: 0.9em;
+	margin: 10px 20px 10px 20px;
+}
+#navbarSupportedContent ul {
+	margin: 15px 0 0 0;
+}
+#flower {
+	background-image: url("../Images/Desserts/rose.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+#description{
+	color: #14207d;
+	font-size: 1.1em;
+	border-radius: 15%;
+	border-color: #c0cfa4;
+	margin: 100px auto auto auto;
+	box-shadow: 1px 1px 1px 0px darkmagenta;
+	width: 50%;
+	height: 750px;
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: 10px;
+position: fixed;
+left: 21%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+		text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+}

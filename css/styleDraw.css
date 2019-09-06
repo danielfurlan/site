@@ -1,0 +1,777 @@
+body {
+			background-image: linear-gradient(#01090f, #100000);
+			background-image: radial-gradient(#5d8aad, #100000, #250a33);
+			font-size: 15px;
+			box-sizing: border-box;
+			margin: 0;
+			width: 100%;
+			font-family: 'Charm', cursive;
+			display: block;
+			padding : 0px;
+			height: 100%;
+}
+.frame{
+	height: 350px;
+	width: 100%;
+	padding: 10px 30px 10px 30px;
+}
+#select{
+	display: none;
+	z-index: 0;
+	width: 50%;
+	height: 500px;
+	overflow: auto;
+	position: fixed;
+	left: 25%;
+	top: 0%;
+	background-image: radial-gradient(#b6417a, #f9f0f01a, #e0f6d6);
+	border: 12px #3f4506;
+	border-style: solid;
+}
+#quadSel{
+		/*padding: 10px 10px 10px 10px;*/
+		width: 50%;
+		height: 87%;
+		left: 25%;
+		top: 50%;
+		border: 1px black;
+		border-style: solid;
+		opacity: 1;
+		font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+}
+.close {
+  color: #ea1c1c;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+#top{
+	background-color: #b65a5a;
+	animation: pulseT 40s infinite;
+}
+/**********************************background color animation******************/
+@keyframes pulseT {
+	0% {
+		background-color: #b65a5a;
+	}
+	25% {
+		background-color: #1414f3;
+	}
+	75% {
+		background-color: #1414f3;
+	}
+	100% {
+		background-color: #b65a5a;
+	}
+}
+.row{
+	height: 100%;
+	padding: 20px 30px 20px 30px;
+}
+.quadro{
+			margin: 20px 20px 20px 25%;
+			padding: 10px 10px 10px 10px;
+			height: 250px;
+			border: 1px black;
+			border-style: solid;
+			width: 200px;
+}
+.quadro2{
+			margin: 4% auto 4% auto;
+			padding: 10px 10px 10px 10px;
+			height: 250px;
+			border: 1px black;
+			border-style: solid;
+			width: 200px;
+}
+
+/*********************quadri TOP***********************/
+#di1 {
+		background-image: url("../Images/Draw/casino.jpg");
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+				opacity: 0;
+				transition: opacity 2.5s ease-out;
+}
+#di1:hover {
+	opacity: 1;
+}
+#di2 {
+		background-image: url("../Images/Draw/sangue.jpg");
+			color: #1e2768;
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+						opacity: 0;
+				transition: opacity 2.5s ease-out;
+}
+#di2:hover {
+	opacity: 1;
+}
+#di3 {
+		background-image: url("../Images/Draw/fluido.jpg");
+			color: #1e2768;
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+						opacity: 0;
+				transition: opacity 2.5s ease-out;
+}
+#di3:hover {
+	opacity: 1;
+}
+#middle{
+	background-color: #1414f3;
+	animation: pulseM 40s infinite;
+}
+@keyframes pulseM {
+	0% {
+		background-color: #1414f3;
+	}
+	25% {
+		background-color: #f6f622;
+	}
+	75% {
+		background-color: #f6f622;
+	}
+	100% {
+		background-color: #1414f3;
+	}
+}
+#di4 {
+		background-image: url("../Images/Draw/uomoEnergia.jpg");
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+				opacity: 0;
+				transition: opacity 2.5s ease-out;
+}
+#di4:hover {
+	opacity: 1;
+}
+#di5 {
+		background-image: url("../Images/Draw/uomoEnergia.jpg");
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+				opacity: 0;
+				transition: opacity 2.5s ease-out;
+}
+#di5:hover {
+	opacity: 1;
+}
+#di6 {
+		background-image: url("../Images/Draw/montagnaFiume.jpg");
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+				opacity: 0;
+				transition: opacity 2.5s ease-out;
+}
+#di6:hover {
+	opacity: 1;
+}
+#bottom{
+	background-color: #f6f622;
+	animation: pulseB 40s infinite;
+}
+@keyframes pulseB {
+	0% {
+		background-color: #f6f622;
+	}
+	25% {
+		background-color: #b65a5a;
+	}
+	75% {
+		background-color: #b65a5a;
+	}
+	100% {
+		background-color: #f6f622;
+	}
+}
+#di7 {
+		background-image: url("../Images/Draw/uomoEnergia.jpg");
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+				opacity: 0;
+				transition: opacity 2.5s ease-out;
+}
+#di7:hover {
+	opacity: 1;
+}
+#di8 {
+		background-image: url("../Images/Draw/uomoEnergia.jpg");
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+				opacity: 0;
+				transition: opacity 2.5s ease-out;
+}
+#di8:hover {
+	opacity: 1;
+}
+#di9 {
+		background-image: url("../Images/Draw/alberiGialli.jpg");
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+				opacity: 0;
+				transition: opacity 2.5s ease-out;
+}
+#di9:hover {
+	opacity: 1;
+}
+
+.container {
+	padding: 0;
+	width: 1300px;
+}
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	max-width: 20%;
+	flex: 0 0 20%;
+	-ms-flex: 0 0 20%;
+}
+
+/*STARTS FOOTER*/
+
+
+.panel-footer{
+	background-image: linear-gradient(#574d4d,#477ee0);
+	color: #d1db37; /*gold*/
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 5;
+	opacity: 0.9
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+.panel-footer span, .panel-footer div{
+	text-align: center;
+}
+.panel-footer div.text-center {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #f6f5c2; /*white gold*/
+	margin-top: 10px;
+}
+
+.panel-footer .row #city,.panel-footer .row #hour {
+	margin-top: 15px;
+	font-size: 1.2em;
+}
+
+/*END FOOTER*/
+.ease {
+	background-color: #c8c370;
+	margin: 10px auto;
+}
+
+.collapse .ease .show{
+	/*transition: 0.5s;*/
+	-webkit-transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+	transition: 0.5s;
+}
+.collapsing {
+	-webkit-transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+	transition: 0.5s;
+}
+.collapsing.show {
+	-webkit-transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+	transition: 0.5s;
+}
+
+
+/*END FOOTER*/
+
+@media (min-width: 1200px){
+
+.container {
+	padding: 0;
+	/*max-width: 100%;*/
+}
+/*.frame{
+	height: 350px;
+	width: 100%;
+	padding: 10px 30px 10px 30px;
+}
+.quadro{
+			margin: 20px 20px 20px 0px;
+			padding: 10px 10px 10px 10px;
+			height: 250px;
+			border: 1px black;
+			border-style: solid;
+			width: 200px;
+}*/
+#select{
+	display: none;
+	z-index: 0;
+	width: 70%;
+	height: 800px;
+	overflow: auto;
+	position: fixed;
+	left: 15%;
+	top: 5%;
+	background-image: radial-gradient(#b6417a, #f9f0f01a, #e0f6d6);
+	border: 12px #3f4506;
+	border-style: solid;
+}
+#quadSel{
+		/*padding: 10px 10px 10px 10px;*/
+		width: 90%;
+		height: 87%;
+		left: 15%;
+		top: 50%;
+		border: 1px black;
+		border-style: solid;
+		opacity: 1;
+		font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -20px;
+position: fixed;
+left: 42%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+	text-decoration: none;
+	color: #ec63ab;
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+#button{
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+		.container {
+	padding: 0;
+	max-width: 1199px;
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -20px;
+position: fixed;
+left: 42%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+	text-decoration: none;
+	color: #ec63ab;
+}
+.frame{
+	height: 450px;
+	width: 100%;
+	padding: 10px 30px 10px 30px;
+}
+.quadro{
+			margin: 20px 20px 20px 0px;
+			padding: 10px 10px 10px 10px;
+			height: 250px;
+			border: 1px black;
+			border-style: solid;
+			width: 200px;
+}
+}
+@media (min-width: 790px) and (max-width: 991px){
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+#footerphoto{
+		background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+
+#fotphoto div:hover{
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -20px;
+position: fixed;
+left: 37%;
+border-radius: 100%;
+transition: transform .5s;
+}
+.frame{
+	height: 350px;
+	width: 100%;
+	padding: 10px 30px 10px 30px;
+}
+.quadro{
+			margin: 20px 20px 20px 0px;
+			padding: 10px 10px 10px 10px;
+			height: 250px;
+			border: 1px black;
+			border-style: solid;
+			width: 200px;
+}
+#select{
+	display: none;
+	z-index: 0;
+	width: 70%;
+	height: 900px;
+	overflow: auto;
+	position: fixed;
+	left: 15%;
+	top: 10%;
+	background-image: radial-gradient(#b6417a, #f9f0f01a, #e0f6d6);
+	border: 12px #3f4506;
+	border-style: solid;
+}
+#quadSel{
+		/*padding: 10px 10px 10px 10px;*/
+		width: 90%;
+		height: 87%;
+		left: 15%;
+		top: 50%;
+		border: 1px black;
+		border-style: solid;
+		opacity: 1;
+		font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+}
+#button span {
+	border-radius: 50%;
+	width: 50px;
+	background-color: brown;
+	opacity: 0.9;
+}
+}
+@media (min-width: 575px) and (max-width: 789px){
+#fotphoto div:hover {
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+.container {
+	padding: 0;
+	max-width: 789px;
+}
+#button {
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -20px;
+position: fixed;
+left: 33%;
+border-radius: 100%;
+transition: transform .5s;
+}
+}
+@media (min-width: 480px) and (max-width: 574px){
+#fotphoto div:hover {
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: 10px;
+position: fixed;
+left: 33%;
+border-radius: 100%;
+transition: transform .5s;
+}
+.container {
+	padding: 0;
+	max-width: 574px;
+}
+}
+@media (min-width: 362px) and (max-width: 479px){
+.row{
+	height: 100%;
+	padding: 0px 20px 0px 20px;
+}
+.img-fluid{
+	height: 100%;
+	width: auto;
+	padding: 0px;
+	margin: 0 auto;
+
+}
+.frame{
+	height: 240px;
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+}
+.quadro{
+			margin: 5px;
+			padding: 10px 10px 10px 10px;
+			height: 200px;
+			border: 1px black;
+			border-style: solid;
+			width: 100px;
+}
+#select{
+	display: none;
+	z-index: 0;
+	width: 100%;
+	height: 500px;
+	overflow: auto;
+	position: fixed;
+	left: 0%;
+	top: 10%;
+	background-image: radial-gradient(#b6417a, #f9f0f01a, #e0f6d6);
+	border: 12px #3f4506;
+	border-style: solid;
+}
+#quadSel{
+		/*padding: 10px 10px 10px 10px;*/
+		width: 90%;
+		height: 93%;
+		left: 25%;
+		top: 50%;
+		border: 1px black;
+		border-style: solid;
+		opacity: 1;
+		font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -37px;
+position: fixed;
+left: 30%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+		text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+.container {
+	padding: 0;
+	max-width: 360px;
+}
+}
+
+@media (max-width: 361px){
+.panel-footer div.text-center {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #f6f5c2; /*white gold*/
+	margin-top: 10px;
+	bottom: 5px;
+
+}
+.row{
+	height: 100%;
+	padding: 0px 20px 0px 20px;
+}
+.img-fluid{
+	height: 100%;
+	width: auto;
+	padding: 0px;
+
+}
+.frame{
+	height: 240px;
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+}
+.quadro{
+			margin: 5px;
+			padding: 10px 10px 10px 10px;
+			height: 200px;
+			border: 1px black;
+			border-style: solid;
+			width: 100px;
+}
+#select{
+	display: none;
+	z-index: 0;
+	width: 100%;
+	height: 500px;
+	overflow: auto;
+	position: fixed;
+	left: 0%;
+	top: 10%;
+	background-image: radial-gradient(#b6417a, #f9f0f01a, #e0f6d6);
+	border: 12px #3f4506;
+	border-style: solid;
+}
+#quadSel{
+		/*padding: 10px 10px 10px 10px;*/
+		width: 90%;
+		height: 93%;
+		left: 25%;
+		top: 50%;
+		border: 1px black;
+		border-style: solid;
+		opacity: 1;
+		font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-position: center;
+				background-size: cover;
+}
+#footerphoto{
+	background-image: url("../Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 160px;
+	width: 160px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -49px;
+position: fixed;
+left: 27%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+		text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+.container {
+	padding: 0;
+	max-width: 360px;
+}
+}
+
+
+
+
