@@ -1,0 +1,230 @@
+body {
+			background-image: linear-gradient(#01090f, #100000);
+			background-image: radial-gradient(#5d8aad, #100000, #250a33);
+			font-size: 15px;
+			box-sizing: border-box;
+			margin: 0;
+			width: 100%;
+			font-family: 'Charm', cursive;
+			display: block;
+			padding : 0px;
+			height: 100%;
+}
+#header-nav {
+	background-color: #2f101e; /*marron*/
+	background-image: radial-gradient(#2d0f0f, #090507, #083ba4);
+	border-radius: 0;
+	border: 0;
+	opacity: 0.8;
+}
+
+.navbar-header {
+	width: 100%;
+}
+.navbar-toggler {
+	float: right;
+	background-color: #a16681;
+}
+.navbar-toggler:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+	background-color: #a16681;
+}
+.nav-item {
+	width: 100%;
+	box-shadow: 0 1px 1px 0;
+}
+
+.nav-item a{
+	color: #a6a855;
+	box-shadow: 1px 1px 5px 1px gray;
+	font-size: 1.6em;
+	margin: 10px;
+}
+#navbarSupportedContent li{
+	text-align: center;
+	width: 100%;
+	border-radius: 25px;
+}
+#sescPhoto {
+	align-items: center;
+}
+#page {
+	box-sizing: border-box;
+	display: grid;
+	position: relative;
+	padding: 0px;
+}
+
+#content {
+	width: auto;
+	text-align: center;
+	padding-bottom: 5%;	
+	padding-top: 5%;	
+}
+
+#post {
+	width: 60%;
+	padding : 0px;
+	text-align: center;
+}
+
+#articleTitle {
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+#headphoto {
+	background-image: url("Images/sescnblues.jpg");
+	height: 700px;
+   font-family: 'Indie Flower', cursive;
+
+}
+
+#navbarSupportedContent span {
+	padding-right: 13px;	
+}
+
+#navbarSupportedContent a:hover {
+	text-shadow: 1px 1px white;	
+}
+
+.collapse div{
+	margin: 10px;
+}
+
+.navbar-nav {
+	padding: 0;
+}
+
+#navbarSupportedContent div{
+	margin: 10px 0px 10px 0px;
+
+}
+
+#navbarSupportedContent div:hover{
+	color: white;
+}
+
+.panel-footer{
+	background-color: #436299;
+}
+
+.panel-footer span, .panel-footer div{
+	text-align: center;
+}
+.panel-footer div.text-center {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #1f3900;
+	margin-top: 10px;
+}
+
+.panel-footer .row #city,.panel-footer .row #hour {
+	margin-top: 15px;
+	font-size: 1.2em;
+}
+
+@media (max-width: 991px){
+	#headphoto {
+				color: #d4a336;
+		font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+			background-image: url("Images/768.jpg");
+				background-position: center;
+				background-size: cover;
+			padding-top: 150px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+.nav-item {
+	font-size: 3vw;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	#headphoto {
+				color: #d4a336;
+			font-family: 'Indie Flower', cursive;
+			font-size: 70px;
+			text-align: center;
+				background-image: url("Images/992.jpg") no-repeat ;
+				background-position: center;
+				background-size: cover;
+			padding-top: 150px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+		}
+}
+
+@media (min-width: 1200px){
+#headphoto {
+			color: #09488d;
+
+
+   font-family: 'Indie Flower', cursive;
+			 font-size: 130px;
+			text-align: center; 
+				background-image: url("Images/1200.jpg") no-repeat ;
+				background-position: center;
+				background-size: cover;
+			padding-top: 150px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+}
+
+@media (max-width: 479px){
+	.nav-item a{
+		font-size: 0.8em;
+		margin: 10px;
+	}
+}
+
+.dropdown {
+	color: green;
+	height: 30px;
+	width: 60px;
+	position: relative;
+	border-style: solid;
+	border-color: pink;
+	text-align: center;
+	background-color: green;
+	left: 100px;
+}
+
+.dropdown:hover {
+	color: pink;
+}
+
+.sub-menu {
+	background: #DDD;
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	transform: translateY(-2em);
+	z-index: -1;
+	transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+.dropdown: focus .sub-menu, .dropdown: focus-within .sub-menu,
+.dropdown: hover .sub-menu{
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+	transform: translateY(0%);
+	transition-delay: 0s, 0s, 0.3s;
+}
+
+nav {
+	color: black;
+	display: block;
+}

@@ -1,0 +1,1028 @@
+body {
+			background-image: linear-gradient(#01090f, #100000);
+			background-image: radial-gradient(#5d8aad, #100000, #250a33);
+			font-size: 15px;
+			box-sizing: border-box;
+			margin: 0;
+			width: 100%;
+			font-family: 'Charm', cursive;
+			display: block;
+			padding : 0px;
+			height: 100%;
+}
+#rowvideo {
+	margin-bottom: 35px;
+	margin-top: 35px;
+}
+
+hr {
+	border-top: 2.5px solid #a6ad3d;
+	width: 70%;
+}
+#audioplayer{
+	position: fixed;
+	z-index: 5;
+}
+.description {
+	color: white;
+	margin-top: 10px;
+}
+.container {
+	padding: 0;
+}
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-lg-5, .col-md-5, .col-sm-5, .col-xs-5 {
+	max-width: 20%;
+	flex: 0 0 20%;
+	-ms-flex: 0 0 20%;
+}
+
+/**********************************NAVBAR*****************/
+#headphoto {
+	background-image: url("Images/sescnblues.jpg");
+	background-position: center top;
+   	font-family: 'Indie Flower', cursive;
+}
+#header-nav {
+	background-color: #2f101e; /*marron*/
+	background-image: radial-gradient(#2d0f0f, #090507, #083ba4);
+	border-radius: 0;
+	border: 0;
+	opacity: 0.8;
+}
+.navbar-header {
+	width: 100%;
+}
+.navbar-toggler {
+	float: right;
+	background-color: #a16681;
+}
+.navbar-toggler:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+	background-color: #a16681;
+}
+.nav-item {
+	width: 100%;
+	box-shadow: 0px 0.5px 0px 0 brown;
+}
+.collapse div{
+	margin: 10px;
+}
+.navbar-nav {
+	padding: 0;
+}
+
+.navbar-nav a{
+	color: #a6a855; /*gold*/
+	font-size: 1.6em;
+}
+.navbar-nav > a{
+	box-shadow: 1px 1px 5px 1px gray;
+}
+#navbarSupportedContent li{
+	text-align: center;
+	width: 100%;
+	border-radius: 25px;
+	box-shadow: 0.5px 1px 1px 0.5px #e4e2b5;
+	height: 70px;
+}
+#navbarSupportedContent span {
+	padding-right: 13px;	
+	margin-top: 5px;
+}
+
+#navbarSupportedContent li:hover {
+	text-shadow: 1.5px 1.5px white;		
+	box-shadow: 2px 2px white;
+}
+#navbarSupportedContent div{
+	margin: 10px 0px 10px 0px;
+
+}
+#navbarSupportedContent div:hover{
+	color: white;
+}
+
+/************************END NAVBAR*****************/
+
+
+/************************START PAGE*****************/
+#sescPhoto {
+	align-items: center;
+}
+#page {
+	box-sizing: border-box;
+	display: grid;
+	position: relative;
+	padding: 0px;
+}
+
+#content {
+	width: 1OO%;
+	margin-bottom: 100px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+#post {
+	width: 60%;
+	padding : 0px;
+	text-align: center;
+}
+
+#articleTitle {
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+
+
+#bio {
+	font-size: 4em;
+	color: #a19c3e;
+	text-align: center;
+	text-shadow: 1px 1px white;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+#videos {
+	font-size: 4em;
+	color: #a19c3e;
+	text-align: center;
+	text-shadow: 1px 1px white;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+#video1{
+	border: #833333;
+	border-style: solid;
+	border-radius: 2%;
+}
+#video2{
+	border: #235947;
+	border-style: solid;
+	border-radius: 2%;
+}
+#video3{
+	border: #232459;
+	border-style: solid;
+	border-radius: 2%;
+}
+#video4{
+	border: #888f27;
+	border-style: solid;
+	border-radius: 2%;
+}
+/*****************************MUSIC PAGE*******************/
+#musics {
+	font-size: 4em;
+	color: #a19c3e;
+	text-align: center;
+	text-shadow: 1px 1px white;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.oi a:hover .dropdown-content {
+	display: block;
+}
+.catphoto {
+	background-image: radial-gradient(#5d8aad, #100000, #f3cb57);
+	box-shadow: 0 1px 1px 0 gold;
+	color: white;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px gold;
+	border-radius: 30%;
+	height: 70px;
+	width: 70%;
+	margin: 0 auto 50px;
+}
+.catphoto span {
+	width: 100%;
+	position: relative;
+	top: 25%;
+}
+a:hover {
+	text-decoration: none;
+}
+.dropdown2 {
+	position: relative;
+	width: 70%;
+	height: 70px;
+	background-image: inherit;
+	border-radius: 30%;
+	margin: 0 auto 50px;
+}
+.dropdown-content {
+	display: none;
+	z-index: 1;
+}
+.dropdown-content a{
+	display: block;
+	font-size: 1.3em;
+	font-style: inherit;
+	color: tomato;
+}
+.dropdown-content a:hover{
+	color: white;
+	font-size: 1.4em;
+}
+.oi:hover .dropdown-content {
+	display: block;
+	/*box-shadow: 1px 1px 1px 1px white;*/
+}
+
+
+/*************************END MUSIC PAGE*********************/
+
+/************************START BIOGRAPHY********************/
+
+#biotext {
+	width: 66.6%;
+	font-size: 1.1em;
+	color: white;
+	padding-right: 20px;
+}
+
+#self {
+	background-image: url("Images/self.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 33.3%;
+	height: 500px;
+}
+
+/**************************END BIOGRAPHY***********************/
+/* Dropdown content for MUSIC*/
+
+
+/**************************STARTS FOOTER************************/
+
+.panel-footer{
+	background-image: linear-gradient(#574d4d,#477ee0);
+	color: #d1db37; /*gold*/
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 5;
+	opacity: 0.9
+}
+
+.panel-footer span, .panel-footer div{
+	text-align: center;
+}
+.panel-footer div.text-center {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #f6f5c2; /*white gold*/
+	margin-top: 10px;
+}
+
+.panel-footer .row #city,.panel-footer .row #hour {
+	margin-top: 15px;
+	font-size: 1.2em;
+}
+.panel-footer{
+	background-image: linear-gradient(#574d4d,#2f5598);
+	color: #d1db37; /*gold*/
+}
+/******************************END FOOTER**********************/
+
+
+/***************************MEDIA QUERIES*********************/
+@media (min-width: 1200px){
+#headphoto {
+			color: #92a6bc;
+   			/*font-family: 'Indie Flower', cursive;*/
+   			  font-family: 'Dancing Script', cursive;
+			font-size: 200px;
+			text-align: center; 
+				background-image: url("Images/sescnblues.jpg") no-repeat ;
+				background-position: center;
+				background-size: cover;
+			padding-top: 50px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+			position: relative;
+}
+.container {
+	padding: 0;
+	max-width: 1200px;
+}
+#footerphoto{
+	background-image: url("Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -55px;
+position: fixed;
+left: 42%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+	text-decoration: none;
+	color: #ec63ab;
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+iframe{
+	width: 400px;
+	height: 400px;
+}
+/*.embed-responsive{
+	width: 450px;
+	height: 300px;
+}*/
+/*.video{
+	margin: 70px 20px 70px 40px;
+}*/
+#videos{
+	margin-top: 50px;
+}
+#rowvideo{
+	height: 170px;
+}
+/*.item{
+	left: 40%;
+}*/
+#navbarSupportedContent li{
+	text-align: center;
+	width: 100%;
+	border-radius: 25px;
+	box-shadow: 0.5px 1px 1px 0.5px #e4e2b5;
+	font-size: 0.8em;
+}
+.img-fluid{
+	/*height: 100%;*/
+	width: auto;
+	padding: 0px;
+	margin: 0 auto;
+}
+.boxVideo{
+	margin-top: 20px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	#headphoto {
+			color: #92a6bc;
+   			/*font-family: 'Indie Flower', cursive;*/
+   			  font-family: 'Dancing Script', cursive;
+			font-size: 200px;
+			text-align: center;
+				background-image: url("Images/sescnblues.jpg") no-repeat ;
+				background-position: center;
+				background-size: cover;
+			padding-top: 50px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+		}
+		.container {
+	padding: 0;
+	max-width: 1199px;
+}
+#footerphoto{
+	background-image: url("Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -55px;
+position: fixed;
+left: 42%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+	text-decoration: none;
+	color: #ec63ab;
+}
+iframe{
+	width: 400px;
+	height: 400px;
+}
+/*.embed-responsive{
+	width: 450px;
+	height: 300px;
+}
+.video{
+	margin: 70px 20px 70px 40px;
+}*/
+#videos{
+	margin-top: 50px;
+}
+#rowvideo{
+	height: 170px;
+}
+.boxVideo{
+	margin-top: 20px;
+}
+/*#rowvideo .boxVideo:nth-of-type(1){
+	top: -9%;
+}
+#rowvideo .Descr:nth-of-type(2){
+	top: -15%;
+}
+#rowvideo .boxVideo:nth-of-type(4){
+	top: -30%;
+}
+#rowvideo .Descr:nth-of-type(3){
+	top: 24%;
+}*/
+/*.item{
+	left: 40%;
+}*/
+#navbarSupportedContent li{
+	text-align: center;
+	width: 100%;
+	border-radius: 25px;
+	box-shadow: 0.5px 1px 1px 0.5px #e4e2b5;
+	font-size: 0.8em;
+}
+.img-fluid{
+	/*height: 100%;*/
+	width: auto;
+	padding: 0px;
+	margin: 0 auto;
+}
+}
+@media (min-width: 790px) and (max-width: 991px){
+	#headphoto {
+				color: #92a6bc;
+   			/*font-family: 'Indie Flower', cursive;*/
+   			  font-family: 'Dancing Script', cursive;
+			font-size: 170px;
+			text-align: center;
+			background-image: url("Images/sescnblues.jpg");
+				background-position: center;
+				background-size: cover;
+			padding-top: 50px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+#footerphoto{
+		background-image: url("Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto div:hover{
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -55px;
+position: fixed;
+left: 37%;
+border-radius: 100%;
+transition: transform .5s;
+}
+.nav-item a{
+	font-size: 3vw;
+}
+.container {
+	padding: 0;
+	max-width: 991px;
+}
+iframe{
+	width: 400px;
+	height: 400px;
+}
+/*.embed-responsive{
+	width: 450px;
+	height: 300px;
+}
+.video{
+	margin: 70px 20px 70px 40px;
+}*/
+#videos{
+	margin-top: 50px;
+}
+#rowvideo{
+	height: 170px;
+}
+.boxVideo{
+	margin-top: 20px;
+}
+/*#rowvideo .boxVideo:nth-of-type(1){
+	top: -9%;
+}
+#rowvideo .Descr:nth-of-type(2){
+	top: -15%;
+}
+#rowvideo .boxVideo:nth-of-type(4){
+	top: -30%;
+}
+#rowvideo .Descr:nth-of-type(3){
+	top: 24%;
+}*/
+.item{
+	left: 40%;
+}
+#navbarSupportedContent li{
+	text-align: center;
+	width: 100%;
+	border-radius: 25px;
+	box-shadow: 0.5px 1px 1px 0.5px #e4e2b5;
+	font-size: 0.8em;
+}
+.img-fluid{
+	/*height: 100%;*/
+	width: auto;
+	padding: 0px;
+	margin: 0 auto;
+}
+}
+@media (min-width: 575px) and (max-width: 789px){
+		#headphoto {
+				color: #92a6bc;
+   			/*font-family: 'Indie Flower', cursive;*/
+   			  font-family: 'Dancing Script', cursive;
+			font-size: 170px;
+			text-align: center;
+			background-image: url("Images/sescnblues.jpg");
+				background-position: center;
+				background-size: cover;
+			padding-top: 50px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+#fotphoto div:hover {
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+.container {
+	padding: 0;
+	max-width: 789px;
+}
+#footerphoto{
+	background-image: url("Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -58px;
+position: fixed;
+left: 33%;
+border-radius: 100%;
+transition: transform .5s;
+}
+iframe{
+	width: 400px;
+	height: 400px;
+}
+.item{
+	left: 40%;
+}
+.boxVideo{
+	margin-top: 20px;
+}
+/*.embed-responsive{
+	width: 610px;
+	height: 300px;
+}
+.video{
+	margin: 70px 20px 70px 40px;
+}*/
+#videos{
+	margin-top: 50px;
+}
+#rowvideo{
+	height: 170px;
+}
+#rowvideo .boxVideo:nth-of-type(1){
+	top: -9%;
+}
+#rowvideo .Descr:nth-of-type(2){
+	top: -15%;
+}
+#rowvideo .boxVideo:nth-of-type(4){
+	top: -30%;
+}
+#rowvideo .Descr:nth-of-type(3){
+	top: 24%;
+}
+.item{
+	left: 40%;
+}
+#navbarSupportedContent li{
+	text-align: center;
+	width: 100%;
+	border-radius: 25px;
+	box-shadow: 0.5px 1px 1px 0.5px #e4e2b5;
+	font-size: 0.8em;
+}
+.img-fluid{
+	/*height: 100%;*/
+	width: auto;
+	padding: 0px;
+	margin: 0 auto;
+}
+}
+@media (min-width: 480px) and (max-width: 574px){
+		#headphoto {
+			color: #92a6bc;
+   			/*font-family: 'Indie Flower', cursive;*/
+   			  font-family: 'Dancing Script', cursive;
+			font-size: 120px;
+			text-align: center;
+			background-image: url("Images/sescnblues.jpg");
+				background-position: center;
+				background-size: cover;
+			padding-top: 50px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+			height: 500px;
+}
+iframe{
+	width: 400px;
+	height: 400px;
+}
+.embed-responsive{
+	width: 450px;
+	height: 300px;
+}
+.video{
+	margin: 70px 20px 70px 40px;
+}
+#fotphoto div:hover {
+	text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#footerphoto{
+	background-image: url("Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -60px;
+position: fixed;
+left: 33%;
+border-radius: 100%;
+transition: transform .5s;
+}
+.container {
+	padding: 0;
+	max-width: 574px;
+}
+#videos{
+	margin-top: 50px;
+}
+#rowvideo{
+	height: 850px;
+}
+#rowvideo .boxVideo:nth-of-type(1){
+	top: -9%;
+}
+#rowvideo .Descr:nth-of-type(2){
+	top: -15%;
+}
+#rowvideo .boxVideo:nth-of-type(4){
+	top: -30%;
+}
+#rowvideo .Descr:nth-of-type(3){
+	top: 24%;
+}
+.item{
+	left: 40%;
+}
+#navbarSupportedContent li{
+	text-align: center;
+	width: 100%;
+	border-radius: 25px;
+	box-shadow: 0.5px 1px 1px 0.5px #e4e2b5;
+	font-size: 0.8em;
+}
+.img-fluid{
+	/*height: 100%;*/
+	width: auto;
+	padding: 0px;
+	margin: 0 auto;
+}
+}
+@media (min-width: 362px) and (max-width: 479px){
+		#headphoto {
+		color: #92a6bc;
+   			/*font-family: 'Indie Flower', cursive;*/
+   			  font-family: 'Dancing Script', cursive;
+		font-size: 90px;
+			text-align: center;
+			background-image: url("Images/sescnblues.jpg");
+				background-position: center;
+				background-size: cover;
+			padding-top: 50px;
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: auto;
+}
+.nav-item a{
+		font-size: 0.8em;
+		margin: 10px;
+	}
+.row{
+	height: 100%;
+	padding: 0px 20px 0px 20px;
+}
+iframe{
+	width: 300px;
+	height: 300px;
+}
+.embed-responsive{
+	width: 300px;
+	height: 300px;
+}
+.video{
+	margin: 70px 20px 70px 20px;
+}
+#footerphoto{
+	background-image: url("Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -37px;
+position: fixed;
+left: 30%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+		text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+.container {
+	padding: 0;
+	max-width: 360px;
+}
+#videos{
+	margin-top: 50px;
+}
+#rowvideo{
+	height: 850px;
+}
+#rowvideo .boxVideo:nth-of-type(1){
+	top: -9%;
+}
+#rowvideo .Descr:nth-of-type(2){
+	top: -15%;
+}
+#rowvideo .boxVideo:nth-of-type(4){
+	top: -30%;
+}
+#rowvideo .Descr:nth-of-type(3){
+	top: 24%;
+}
+.item{
+	left: 40%;
+}
+#navbarSupportedContent li{
+	text-align: center;
+	width: 100%;
+	border-radius: 25px;
+	box-shadow: 0.5px 1px 1px 0.5px #e4e2b5;
+	font-size: 0.8em;
+}
+.img-fluid{
+	/*height: 100%;*/
+	width: auto;
+	padding: 0px;
+	margin: 0 auto;
+}
+}
+@media (max-width: 361px){
+#headphoto {
+	color: #92a6bc;
+   			/*font-family: 'Indie Flower', cursive;*/
+   			  font-family: 'Dancing Script', cursive;
+	font-size: 90px;
+	text-align: center;
+	background-image: url("Images/sescnblues.jpg");
+		background-position: center;
+		background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: auto;
+}
+#videos{
+	margin-top: 50px;
+}
+.boxVideo{
+	padding-bottom: -250px;
+}
+.column{
+	width: 100%;
+	padding-bottom: -250px;
+}
+#rowvideo{
+	height: 850px;
+}
+#rowvideo .boxVideo:nth-of-type(1){
+	top: -9%;
+}
+#rowvideo .Descr:nth-of-type(2){
+	top: -15%;
+}
+#rowvideo .boxVideo:nth-of-type(4){
+	top: -30%;
+}
+#rowvideo .Descr:nth-of-type(3){
+	top: 24%;
+}
+.panel-footer div.text-center {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #f6f5c2; /*white gold*/
+	margin-top: 10px;
+	bottom: 5px;
+
+}
+.row{
+	height: 100%;
+	padding: 0px 20px 0px 20px;
+}
+.img-fluid{
+	/*height: 100%;*/
+	width: auto;
+	padding: 0px;
+	margin: 0 auto;
+}
+#footerphoto{
+	background-image: url("Images/Home/tree_burned.png");
+	background-position: center;
+	background-size: cover;
+	height: 160px;
+	width: 160px;
+	border-radius: 100%;
+}
+iframe{
+	width: 300px;
+	height: 300px;
+}
+.embed-responsive{
+	width: 275px;
+	height: 275px;
+}
+.video{
+	margin: 70px 20px 70px 20px;
+}
+#fotphoto{
+	width: 200px;
+z-index: 5;
+bottom: -49px;
+position: fixed;
+left: 27%;
+border-radius: 100%;
+transition: transform .5s;
+}
+#fotphoto:hover{
+ transform: scale(1.2);
+}
+#fotphoto div:hover{
+		text-decoration: none;
+	box-shadow: 1px 1px 1px 1px #f3ef99;
+	text-shadow: 1px 1px 1px 1px white;
+	color: #ec63ab;
+}
+.container {
+	padding: 0;
+	max-width: 360px;
+}
+.item{
+	left: 40%;
+}
+#navbarSupportedContent li{
+	text-align: center;
+	width: 100%;
+	border-radius: 25px;
+	box-shadow: 0.5px 1px 1px 0.5px #e4e2b5;
+	font-size: 0.8em;
+}
+}
+.dropdown {
+	color: green;
+	height: 30px;
+	width: 60px;
+	position: relative;
+	border-style: solid;
+	border-color: pink;
+	text-align: center;
+	background-color: green;
+	left: 100px;
+}
+
+.dropdown:hover {
+	color: pink;
+}
+.dropdown-content:hover {
+	display: block;
+}
+
+.sub-menu {
+	background: #DDD;
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	transform: translateY(-2em);
+	z-index: -1;
+	transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+.dropdown: focus .sub-menu, .dropdown: focus-within .sub-menu,
+.dropdown: hover .sub-menu{
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+	transform: translateY(0%);
+	transition-delay: 0s, 0s, 0.3s;
+}
+
+nav {
+	color: black;
+	display: block;
+}

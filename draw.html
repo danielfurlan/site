@@ -1,0 +1,89 @@
+<!-- For selector references: https://www.w3schools.com/cssref/css_selectors.asp -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site Dan</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styleDraw.css">
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"></head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+<body>
+
+
+	<div id="page">
+	<header>
+		
+			
+	</header>
+
+		<div id="content">
+			<!-- Questo è il DIV transitorio che riceve il quadro selezionato per l'utente. è sempre nascosto e deve aparire quando un quadro è selezionato -->
+			<div id="select">
+				<span class="close">&times;</span>
+				<div id="quadSel" class="quadro2"></div>
+			</div>
+
+			<div id="top" class="frame">
+			
+			<div id="rosso" class="row">
+			
+				<a href="#" id="subDi1" class="img-fluid col-sm-4 col-lg-4">
+					<div onclick="display(this)" id="di1" class="quadro"></div>
+				</a>
+				<a href="#" id="subDi2" class="img-fluid col-sm-4 col-lg-4">
+					<div onclick="display(this)" id="di2" class="quadro"></div>
+				</a>
+				<a href="#" id="subDid3" class="img-fluid col-sm-4 col-lg-4">
+					<div onclick="display(this)" id="di3" class="quadro"></div>
+				</a>
+			</div>
+			</div>
+			<div id="middle" class="frame">
+				<div id="blu" class="row">
+				<a href="#" id="subDi4" class="img-fluid col-sm-4 col-lg-4">
+					<div onclick="display(this)" id="di4" class="quadro"></div>
+				</a>
+				<a href="#" id="subDi5" class="img-fluid col-sm-4 col-lg-4">
+					<div onclick="display(this)" id="di5" class="quadro"></div>
+				</a>
+				<a href="#" id="subDi6" class="img-fluid col-sm-4 col-lg-4">
+					<div onclick="display(this)" id="di6" class="quadro"></div>
+				</a>
+				</div>
+			</div>
+			<div id="bottom" class="frame">
+				<div id="giallo" class="row">
+				<a href="#" id="subDi7" class="img-fluid col-sm-4 col-lg-4">
+					<div onclick="display(this)" id="di7" class="quadro"></div>
+				</a>
+				<a href="#" id="subDi8" class="img-fluid col-sm-4 col-lg-4">
+					<div onclick="display(this)" id="di8" class="quadro"></div>
+				</a>
+				<a href="#" id="subDi9" class="img-fluid col-sm-4 col-lg-4">
+					<div onclick="display(this)" id="di9" class="quadro"></div>
+				</a>
+			</div>
+			</div>
+		</div>
+	<a id="fotphoto" href="home.html">
+	<div id="footerphoto"></div>
+	</a>
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<div class="text-center col-sm-12">&copy; Daniel FM Furlan 2019</div>				
+			</div>
+		</div>
+	</footer>
+
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<script src="js/scriptDraw.js"></script>
+</body>
+</html>
+

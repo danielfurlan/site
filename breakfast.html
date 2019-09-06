@@ -1,0 +1,169 @@
+<!-- For selector references: https://www.w3schools.com/cssref/css_selectors.asp -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site Dan</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/breakfastStyle.css">
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"></head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<body>
+
+	<div id="page">
+
+	<header>
+		<nav id="header-nav" class="navbar-expand-md navbar-light">
+
+			<div id="headphoto" class="img-fluid"> 
+			<!-- 	<div id="row" class="row">
+				<a href="" id="meals" class="col-lg-3 catpos"></a>
+				<a href="" id="breakfast" class="col-lg-3 catpos"></a>
+				<a href="" id="tips" class="col-lg-3 catpos"></a>
+				<a href="" id="home" class="col-lg-3 catpos"></a>
+				</div> -->
+				<span id="backphoto">Breakfast!</span>	
+			</div> 
+			   <button onclick="click()" id="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+<!----------------------------- Menu Content------------------- -->
+          <div id="navbarSupportedContent" class="collapse navbar-collapse hidden-lg">
+           <ul id="nav-list" class="nav navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a href="food.html" id="home" class="catpos text-center" onclick="$dc.loadMenuCategories();">
+                <span class="fas fa-home"></span><br class="hidden-xs">Home</a>
+            </li>
+            <li>
+              <a href="#" id="tips" class="catpos text-center">
+                <span class="far fa-lightbulb"></span><br class="hidden-xs"> Tips </a>
+            </li>
+            <li>
+              <a href="meals.html" id="meals" class="catpos text-center">
+                <span class="fas fa-pizza-slice"></span><br class="hidden-xs"> Meals </a>
+            </li>
+             <li>
+              <a href="desserts.html" id="desserts" class="catpos text-center">
+                <span class="fas fa-ice-cream"></span><br class="hidden-xs"> Desserts </a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+		</nav>
+	</header>
+
+		<div id="content" class="container">
+
+			<div id="description">
+				<div class="text-center">
+					<a href="#patatineCont" id="name" class="row" role="button" aria-expanded="false" aria-controls="patatineCont" onmouseover="light(this)" onmouseout="shadow(this)" onclick="value(this)" data-toggle="collapse">
+					
+						<div id="flower" class="col-lg-4"></div>
+						<div id="id" class="col-lg-4 light">
+							Patatine
+						</div>
+						<div id="flower" class="col-lg-4"></div>
+					</a>
+				<!-- ------------------------------ PATATINE CONTENT------------------------------ -->
+									<div id="patatineCont" class="row collapse ease cont">
+										<div id="descP" class="col-sm-6 col-md-6 col-lg-6">
+											<p> asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf 
+											asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf
+										asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf
+									asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf</p>
+										</div>
+										<div id="photoP" class="col-sm-6 col-md-6 col-lg-6 figureI"></div>
+									</div>
+				<!-- ------------------------------------------------------------------------------- -->
+					<a href="#vegCont" id="name" class="row" role="button" aria-expanded="false" aria-controls="vegCont" onmouseover="light(this)" onmouseout="shadow(this)" onclick="value(this)" data-toggle="collapse">
+					
+						<div id="flower" class="col-lg-4"></div>
+						<div id="veget" class="col-lg-4 light">
+							Veget
+						</div>
+						<div id="flower" class="col-lg-4"></div>
+					</a>
+					<!-- ------------------------------ VEG CONTENT------------------------------ -->
+									<div id="vegCont" class="row collapse ease cont">
+										<div id="descV" class="col-sm-6 col-md-6 col-lg-6">
+											<p> asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf 
+											asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf
+										asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf
+									asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf </p>
+										</div>
+										<div id="photoV" class="col-sm-6 col-md-6 col-lg-6 figureP"></div>
+									</div>
+				<!-- ------------------------------------------------------------------------------- -->
+					<a href="#soupCont" id="name" class="row" role="button" aria-expanded="false" aria-controls="soupCont" onmouseover="light(this)" onmouseout="shadow(this)" onclick="value(this)" data-toggle="collapse">
+					
+						<div id="flower" class="col-lg-4"></div>
+						<div id="soup" class="col-lg-4 light">
+							Soup
+						</div>
+						<div id="flower" class="col-lg-4"></div>
+					</a>
+					<!-- ------------------------------ SOUP CONTENT------------------------------ -->
+									<div id="soupCont" class="row collapse ease">
+										<div id="descS" class="col-sm-6 col-md-6 col-lg-6">
+											<p> asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf 
+											asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf
+										asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf
+									asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf </p>
+										</div>
+										<div id="photoS" class="col-sm-6 col-md-6 col-lg-6 figureI"></div>
+									</div>
+				<!-- ------------------------------------------------------------------------------- -->
+					<a href="#chickenCont" id="name" class="row" role="button" aria-expanded="false" aria-controls="chickenCont" onmouseover="light(this)" onmouseout="shadow(this)" onclick="value(this)" data-toggle="collapse">
+					
+						<div id="flower" class="col-lg-4"></div>
+						<div id="chicken" class="col-lg-4 light">
+							Chichen
+						</div>
+						<div id="flower" class="col-lg-4"></div>
+					</a>
+					<!-- ------------------------------ CHICKEN CONTENT------------------------------ -->
+									<div id="chickenCont" class="row collapse ease">
+										<div id="descC" class="col-sm-6 col-md-6 col-lg-6">
+											<p> asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf 
+											asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf
+										asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf
+									asdòlkjòkljf aldjflòjadf òlajsdflkj aljdfòalskdjf </p>
+										</div>
+										<div id="photoC" class="col-sm-6 col-md-6 col-lg-6 figureP"></div>
+									</div>
+				<!-- ------------------------------------------------------------------------------- -->
+					
+				</div>
+			</div>
+
+
+			<div id="categories">
+			
+			</div>
+			
+		</div>
+	</div>
+	<a id="fotphoto" href="home.html">
+	<div id="footerphoto"></div>
+	</a>
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<div class="text-center col-sm-12">&copy; Daniel FM Furlan 2019</div>				
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
