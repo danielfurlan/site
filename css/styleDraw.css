@@ -18,11 +18,11 @@ body {
 #select{
 	display: none;
 	z-index: 0;
-	width: 50%;
+	width: 100%;
 	height: 500px;
 	overflow: auto;
 	position: fixed;
-	left: 25%;
+	left: 0%;
 	top: 0%;
 	background-image: radial-gradient(#b6417a, #f9f0f01a, #e0f6d6);
 	border: 12px #3f4506;
@@ -30,7 +30,7 @@ body {
 }
 #quadSel{
 		/*padding: 10px 10px 10px 10px;*/
-		width: 50%;
+		width: 90%;
 		height: 87%;
 		left: 25%;
 		top: 50%;
